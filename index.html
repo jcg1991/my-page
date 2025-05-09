@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mi Página</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <a href="#inicio">Inicio</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#intereses">Intereses</a>
+      <a href="#imagen">Imagen</a>
+      <a href="#enlaces">Enlaces</a>
+      <a href="#horario">Horario</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div
+      class="seccion"
+      id="inicio"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <h1>¡Hola, soy Jaime!</h1>
+      <p>Esta es mi primera página web hecha con HTML.</p>
+    </div>
+
+    <div
+      class="seccion"
+      id="sobre-mi"
+      data-aos="fade-left"
+      data-aos-duration="1000"
+      data-aos-delay="100"
+    >
+      <h2>Sobre mí</h2>
+      <p>
+        Estoy empezando en programación y quiero convertirme en desarrollador
+        profesional.
+      </p>
+    </div>
+
+    <div
+      class="seccion"
+      id="intereses"
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+      data-aos-delay="200"
+    >
+      <h2>Mis intereses</h2>
+      <ul>
+        <li>Programación web</li>
+        <li>Inteligencia Artificial</li>
+        <li>Crear proyectos reales y útiles</li>
+      </ul>
+    </div>
+
+    <div
+      class="seccion"
+      id="imagen"
+      data-aos="flip-left"
+      data-aos-duration="1000"
+      data-aos-delay="300"
+    >
+      <h2>Una imagen que me representa</h2>
+      <img
+        src="https://cdn.potomac.edu/wp-content/uploads/2020/12/benefits-of-coding-e1606911064541.jpg"
+        alt="Imagen de ejemplo"
+        width="300"
+      />
+    </div>
+
+    <div
+      class="seccion"
+      id="enlaces"
+      data-aos="fade-right"
+      data-aos-duration="1000"
+      data-aos-delay="400"
+    >
+      <h2>Enlaces útiles</h2>
+      <p>
+        Puedes visitar
+        <a href="https://github.com/jcg1991" target="_blank">mi GitHub</a> para
+        ver mis proyectos.
+      </p>
+    </div>
+
+    <div
+      class="seccion"
+      id="horario"
+      data-aos="flip-up"
+      data-aos-duration="1000"
+      data-aos-delay="500"
+    >
+      <h2>Mi horario de estudio</h2>
+      <table>
+        <tr>
+          <th>Día</th>
+          <th>Horas</th>
+        </tr>
+        <tr>
+          <td>Lunes</td>
+          <td>8 horas</td>
+        </tr>
+        <tr>
+          <td>Martes</td>
+          <td>8 horas</td>
+        </tr>
+        <tr>
+          <td>Miércoles</td>
+          <td>8 horas</td>
+        </tr>
+        <tr>
+          <td>Jueves</td>
+          <td>8 horas</td>
+        </tr>
+        <tr>
+          <td>Viernes</td>
+          <td>5 horas</td>
+        </tr>
+        <tr>
+          <td>Sábado</td>
+          <td>3 horas</td>
+        </tr>
+      </table>
+    </div>
+
+    <div
+      class="seccion"
+      id="contacto"
+      data-aos="zoom-out"
+      data-aos-duration="1000"
+      data-aos-delay="600"
+    >
+      <h2>Contacto</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" /><br /><br />
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" /><br /><br />
+
+        <input type="submit" value="Enviar" />
+      </form>
+    </div>
+    <a href="#inicio" class="boton-subir">⬆ Subir</a>
+    <footer class="footer">
+        <p>&copy; 2025 Jaime Castillo Gutiérrez. Todos los derechos reservados.</p>
+        <p>
+          <a href="mailto:leyendalerus@hotmail.com">leyendalerus@hotmail.com</a> |
+          <a href="mailto:leyendalerus1991@gmail.com">leyendalerus1991@gmail.com</a> |
+          <a href="tel:+34624742760">+34 624 742 760</a> |
+          <a href="https://github.com/jcg1991" target="_blank">GitHub</a> |
+          <a href="#" target="_blank">LinkedIn (próximamente)</a>
+        </p>
+      </footer>
+      
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
